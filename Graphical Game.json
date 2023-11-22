@@ -63,7 +63,109 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ranger_Idle 1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "626c7c40a891e1937060e1f67eeef95ebddff810a5d54838945eeae36e305837_Ranger_Idle 1_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Brawler Series/NES/626c7c40a891e1937060e1f67eeef95ebddff810a5d54838945eeae36e305837_Ranger_Idle 1_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ranger_Idle 1_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "b7b692ac5645eb15dfebf0c16c84a649ffa261b21b25ce2f4b8b721411f029f3_Ranger_Idle 1_2.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Brawler Series/NES/b7b692ac5645eb15dfebf0c16c84a649ffa261b21b25ce2f4b8b721411f029f3_Ranger_Idle 1_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Delivery Truck.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2a86f0380e1211abe1576f08708f42300085767fcc87d365d41a407d814688d9_Delivery Truck.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Vehicle Pack/Vehicles/Truck/2a86f0380e1211abe1576f08708f42300085767fcc87d365d41a407d814688d9_Delivery Truck.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Wood Hud_north.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "464f0b9985a2527b9567f4d0da11ee0360672c19664de0367c0f67c9f43743db_9patch_Wood Hud_north.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/464f0b9985a2527b9567f4d0da11ee0360672c19664de0367c0f67c9f43743db_9patch_Wood Hud_north.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_Dark Wood.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "74288ffdafa8785eae1d2f9aea454acea55352176be25ffc927d5d6eee31972f_Icon Background_Dark Wood.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/74288ffdafa8785eae1d2f9aea454acea55352176be25ffc927d5d6eee31972f_Icon Background_Dark Wood.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/lit cigarette.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/lit cigarette.png\"}",
+        "name": "lit cigarette",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/lit cigarette2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lit cigarette2",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
