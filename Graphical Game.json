@@ -292,7 +292,7 @@
         "alwaysLoaded": false,
         "file": "assets/idle.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/idle.png\"}",
         "name": "idle",
         "smoothed": true,
         "userAdded": true
@@ -307,6 +307,42 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/character.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/character.png\"}",
+        "name": "character",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

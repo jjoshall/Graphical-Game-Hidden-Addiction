@@ -202,6 +202,54 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 319,
+      "customSize": true,
+      "depth": 1,
+      "height": 116,
+      "layer": "",
+      "name": "cigarette",
+      "persistentUuid": "a45d036c-1912-4d66-a402-bd2bea53681a",
+      "width": 112,
+      "x": 130,
+      "y": 85,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 139,
+      "layer": "",
+      "name": "ash_pile",
+      "persistentUuid": "86a2b44b-2608-4c80-82d7-d4a11632b262",
+      "width": 180,
+      "x": 62,
+      "y": 525,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 357,
+      "customSize": true,
+      "depth": 1,
+      "height": 172,
+      "layer": "",
+      "name": "burnt_cig",
+      "persistentUuid": "456af7b4-5606-4b00-90fb-36e7eda75037",
+      "width": 225,
+      "x": 50,
+      "y": 322,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -232,7 +280,7 @@
       ],
       "animations": [
         {
-          "name": "idle",
+          "name": "sad",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -243,6 +291,61 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "idle",
+                  "points": [
+                    {
+                      "name": "broom",
+                      "x": 51.5,
+                      "y": 45.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 34,
+                    "y": 29
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 44.5,
+                        "y": 47
+                      },
+                      {
+                        "x": 58.5,
+                        "y": 51.5
+                      },
+                      {
+                        "x": 62,
+                        "y": 68
+                      },
+                      {
+                        "x": 39,
+                        "y": 66
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "happy",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "character",
                   "points": [
                     {
                       "name": "broom",
@@ -1073,6 +1176,14 @@
           "parameters": [
             "win"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "lose"
+          ]
         }
       ]
     },
@@ -1132,12 +1243,121 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::And"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": []
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "cigarette",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "burnt_cig",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "ash_pile",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "lose",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Not"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "Layer"
+                      },
+                      "parameters": [
+                        "cigarette",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Layer"
+                      },
+                      "parameters": [
+                        "burnt_cig",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Layer"
+                      },
+                      "parameters": [
+                        "ash_pile",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "win",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "character",
+                "Animation",
+                "=",
+                "\"happy\""
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1401,32 +1621,37 @@
           "subInstructions": [
             {
               "type": {
-                "inverted": true,
-                "value": "Layer"
+                "value": "BuiltinCommonInstructions::Not"
               },
-              "parameters": [
-                "cigarette",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "Layer"
-              },
-              "parameters": [
-                "burnt_cig",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "Layer"
-              },
-              "parameters": [
-                "ash_pile",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "cigarette",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "burnt_cig",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "ash_pile",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -1445,6 +1670,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -1485,9 +1715,9 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "UI",
+      "name": "second layer",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
