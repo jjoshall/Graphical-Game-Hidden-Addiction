@@ -164,6 +164,84 @@
         "name": "lit cigarette2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/Charm-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "668523d3d2bb73faa358e1ebafa55f43d2760f8abbe99aa15476121c1bcc7eb6_Charm-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/668523d3d2bb73faa358e1ebafa55f43d2760f8abbe99aa15476121c1bcc7eb6_Charm-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Ranchers-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "566a014b24b13d8f73118f13a7105778225c22c95127a8f1d5c3e996ff0768de_Ranchers-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/566a014b24b13d8f73118f13a7105778225c22c95127a8f1d5c3e996ff0768de_Ranchers-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "digital-7.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "digital-7.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "df8aa9b299a66dc8a7d5fdad2201e921b89609bcf3f2934c6f48f969155bbe4d_Green block.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/df8aa9b299a66dc8a7d5fdad2201e921b89609bcf3f2934c6f48f969155bbe4d_Green block.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/burnt cigarette.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/burnt cigarette.png\"}",
+        "name": "burnt cigarette",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/burnt.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "burnt",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
