@@ -21,7 +21,7 @@
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Graphical Game",
-    "description": "",
+    "description": "Sweep up all of the trash and put them into the garbage can. Use the arrow keys to move!",
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
@@ -343,6 +343,94 @@
         "name": "character",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image.png\"}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_Wood.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "70d79b102342faacf75e05d9e47d317522e070b5d55b0be8ccf90ee3ff5e09b4_Icon Background_Wood.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/70d79b102342faacf75e05d9e47d317522e070b5d55b0be8ccf90ee3ff5e09b4_Icon Background_Wood.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Sound 7.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "3816335cb845d8f0e43630964d049ace2507f39e08aec0bb89068eeaece2e7da_Sound 7.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/3816335cb845d8f0e43630964d049ace2507f39e08aec0bb89068eeaece2e7da_Sound 7.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/13 - under the hill and down the drain (remixed and fixed version).aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "261339d844e74e9efe1ef03416ec2c5ca12cf61bea62d0b828d9112f6c12811b_13 - under the hill and down the drain (remixed and fixed version).aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Ragnar Random/Fakebit Chiptune Music/261339d844e74e9efe1ef03416ec2c5ca12cf61bea62d0b828d9112f6c12811b_13 - under the hill and down the drain (remixed and fixed version).aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Hit 3.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "088e0b9d13d953fab6044c64cde8aa941c06c904ccf7dc9fe5f6bc4f62fd558f_Hit 3.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/088e0b9d13d953fab6044c64cde8aa941c06c904ccf7dc9fe5f6bc4f62fd558f_Hit 3.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Coins 6.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Coins/982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/New sound effect.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Pickup/coin 14\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.04,\\\"sustainPunch\\\":0,\\\"decay\\\":0.09,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":190.21574743612985,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":15,\\\"frequencyJump1Amount\\\":80,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":85,\\\"squareDutySweep\\\":-10,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"}}",
+        "name": "New sound effect",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

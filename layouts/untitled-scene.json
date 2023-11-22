@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6244537826599996,
+    "zoomFactor": 0.2550455473354349,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -31,22 +31,6 @@
     }
   ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 930,
-      "layer": "",
-      "name": "NewTiledSprite",
-      "persistentUuid": "52e0df4c-0011-4a0a-b9b6-424982441d3a",
-      "width": 1841,
-      "x": -280,
-      "y": -50,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 33,
       "customSize": true,
@@ -250,6 +234,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2065,
+      "layer": "",
+      "name": "floor",
+      "persistentUuid": "e1858b85-217c-481e-bd1a-4a15af8a288c",
+      "width": 2742,
+      "x": -733,
+      "y": -613,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -390,17 +390,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite",
-      "texture": "74288ffdafa8785eae1d2f9aea454acea55352176be25ffc927d5d6eee31972f_Icon Background_Dark Wood.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -1106,6 +1095,17 @@
         "g": 0,
         "r": 255
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "floor",
+      "texture": "70d79b102342faacf75e05d9e47d317522e070b5d55b0be8ccf90ee3ff5e09b4_Icon Background_Wood.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1113,9 +1113,6 @@
     "children": [
       {
         "objectName": "character"
-      },
-      {
-        "objectName": "NewTiledSprite"
       },
       {
         "objectName": "cigarette"
@@ -1143,6 +1140,9 @@
       },
       {
         "objectName": "lose"
+      },
+      {
+        "objectName": "floor"
       }
     ]
   },
@@ -1183,6 +1183,18 @@
           },
           "parameters": [
             "lose"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "261339d844e74e9efe1ef03416ec2c5ca12cf61bea62d0b828d9112f6c12811b_13 - under the hill and down the drain (remixed and fixed version).aac",
+            "yes",
+            "40",
+            ""
           ]
         }
       ]
@@ -1286,6 +1298,18 @@
                 "lose",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "088e0b9d13d953fab6044c64cde8aa941c06c904ccf7dc9fe5f6bc4f62fd558f_Hit 3.aac",
+                "",
+                "50",
+                ""
+              ]
             }
           ]
         },
@@ -1356,6 +1380,18 @@
                 "=",
                 "\"happy\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "3816335cb845d8f0e43630964d049ace2507f39e08aec0bb89068eeaece2e7da_Sound 7.aac",
+                "",
+                "50",
+                ""
+              ]
             }
           ]
         }
@@ -1411,6 +1447,33 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "New sound effect",
+                "",
+                "50",
+                ""
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -1451,6 +1514,33 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "New sound effect",
+                "",
+                "50",
+                ""
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -1491,6 +1581,33 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "New sound effect",
+                "",
+                "50",
+                ""
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -1528,6 +1645,18 @@
             "Animation",
             "=",
             "\"half full\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
+            "",
+            "50",
+            ""
           ]
         }
       ]
@@ -1568,6 +1697,18 @@
             "=",
             "\"half full\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
+            "",
+            "50",
+            ""
+          ]
         }
       ]
     },
@@ -1606,6 +1747,18 @@
             "Animation",
             "=",
             "\"half full\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
+            "",
+            "50",
+            ""
           ]
         }
       ]
