@@ -48,22 +48,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 197,
-      "layer": "",
-      "name": "character",
-      "persistentUuid": "50ab2768-5633-40c3-ad6c-8e386bdaaf07",
-      "width": 196,
-      "x": 580,
-      "y": 282,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 33,
       "customSize": true,
       "depth": 1,
@@ -72,25 +56,9 @@
       "name": "cigarette",
       "persistentUuid": "dc9f3a67-72b4-4962-8e07-0f689c8bea57",
       "width": 131,
-      "x": 910,
-      "y": 421,
+      "x": 868,
+      "y": 417,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 139,
-      "layer": "",
-      "name": "cigarette",
-      "persistentUuid": "26c1f8b4-ae6b-4ce1-9763-0e6708bb5c19",
-      "width": 147,
-      "x": 443,
-      "y": 345,
-      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -142,54 +110,6 @@
       "initialVariables": []
     },
     {
-      "angle": 325,
-      "customSize": true,
-      "depth": 1,
-      "height": 160,
-      "layer": "",
-      "name": "burnt_cig",
-      "persistentUuid": "2e35ef52-4452-4567-a361-04c6e20a812d",
-      "width": 240,
-      "x": 327,
-      "y": 490,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 54,
-      "customSize": true,
-      "depth": 1,
-      "height": 160,
-      "layer": "",
-      "name": "burnt_cig",
-      "persistentUuid": "c13c2253-59e6-4784-82e0-564ff1719036",
-      "width": 240,
-      "x": 689,
-      "y": 585,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 2,
-      "customSize": true,
-      "depth": 1,
-      "height": 160,
-      "layer": "",
-      "name": "burnt_cig",
-      "persistentUuid": "76e7aaff-02ea-42eb-b1ba-f672c711aa9e",
-      "width": 240,
-      "x": 384,
-      "y": 269,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 178,
       "customSize": true,
       "depth": 1,
@@ -198,57 +118,9 @@
       "name": "burnt_cig",
       "persistentUuid": "3d1a8b21-8ebf-4dd6-8232-1ecdc222da9e",
       "width": 240,
-      "x": 1016,
-      "y": 539,
+      "x": 640,
+      "y": 453,
       "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 33,
-      "customSize": true,
-      "depth": 1,
-      "height": 161,
-      "layer": "",
-      "name": "cigarette",
-      "persistentUuid": "92901a52-45c2-405b-a392-826dc5f1bfcd",
-      "width": 131,
-      "x": 540,
-      "y": 547,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 140,
-      "layer": "",
-      "name": "ash_pile",
-      "persistentUuid": "5f00e7ca-1708-48dd-9d26-aa8c96d64006",
-      "width": 212,
-      "x": 910,
-      "y": 574,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 153,
-      "layer": "",
-      "name": "ash_pile",
-      "persistentUuid": "dcb635f5-9689-46ba-8809-e6291f507ba0",
-      "width": 191,
-      "x": 203,
-      "y": 485,
-      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -262,9 +134,71 @@
       "name": "ash_pile",
       "persistentUuid": "b0f04ebc-e6f2-40f7-8c33-60d4c90f0d5b",
       "width": 177,
-      "x": 1108,
-      "y": 338,
+      "x": 792,
+      "y": 243,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "layer": "",
+      "name": "trash",
+      "persistentUuid": "ba9c45e8-4392-4720-9440-d8669061bf53",
+      "width": 147,
+      "x": 1125,
+      "y": 541,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 268,
+      "layer": "",
+      "name": "character",
+      "persistentUuid": "27213ab0-31f0-4478-991d-29d04381926a",
+      "width": 253,
+      "x": 618,
+      "y": 277,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "win",
+      "persistentUuid": "45f961e9-bad8-445c-a16a-bbec2c1b5978",
+      "width": 0,
+      "x": 219,
+      "y": 222,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "lose",
+      "persistentUuid": "2b6b155b-266f-4505-8cee-2d9e799174e4",
+      "width": 0,
+      "x": 250,
+      "y": 222,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -272,7 +206,7 @@
   ],
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "character",
       "type": "Sprite",
@@ -308,12 +242,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
+                  "image": "idle",
                   "points": [
                     {
-                      "name": "hand",
-                      "x": 44,
-                      "y": 44
+                      "name": "broom",
+                      "x": 51.5,
+                      "y": 45.5
                     }
                   ],
                   "originPoint": {
@@ -330,20 +264,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 21,
-                        "y": 8
+                        "x": 44.5,
+                        "y": 47
                       },
                       {
-                        "x": 45,
-                        "y": 8
+                        "x": 58.5,
+                        "y": 51.5
                       },
                       {
-                        "x": 45,
-                        "y": 59
+                        "x": 62,
+                        "y": 68
                       },
                       {
-                        "x": 21,
-                        "y": 59
+                        "x": 39,
+                        "y": 66
                       }
                     ]
                   ]
@@ -371,7 +305,20 @@
       "name": "cigarette",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "distance",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "rotAngle",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -534,7 +481,20 @@
       "name": "burnt_cig",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "distance",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "rotAngle",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -595,7 +555,20 @@
       "name": "ash_pile",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "distance",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "rotAngle",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -661,7 +634,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "empty",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -708,8 +681,328 @@
               ]
             }
           ]
+        },
+        {
+          "name": "half full",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "half full3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 4
+                      },
+                      {
+                        "x": 50,
+                        "y": 4
+                      },
+                      {
+                        "x": 50,
+                        "y": 43
+                      },
+                      {
+                        "x": 14,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "full",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.135,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "full2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 4
+                      },
+                      {
+                        "x": 50,
+                        "y": 4
+                      },
+                      {
+                        "x": 50,
+                        "y": 43
+                      },
+                      {
+                        "x": 14,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "full2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 4
+                      },
+                      {
+                        "x": 50,
+                        "y": 4
+                      },
+                      {
+                        "x": 50,
+                        "y": 43
+                      },
+                      {
+                        "x": 14,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "full2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 4
+                      },
+                      {
+                        "x": 50,
+                        "y": 4
+                      },
+                      {
+                        "x": 50,
+                        "y": 43
+                      },
+                      {
+                        "x": 14,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "full",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 4
+                      },
+                      {
+                        "x": 50,
+                        "y": 4
+                      },
+                      {
+                        "x": 50,
+                        "y": 43
+                      },
+                      {
+                        "x": 14,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "full",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 4
+                      },
+                      {
+                        "x": 50,
+                        "y": 4
+                      },
+                      {
+                        "x": 50,
+                        "y": 43
+                      },
+                      {
+                        "x": 14,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "full",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 4
+                      },
+                      {
+                        "x": 50,
+                        "y": 4
+                      },
+                      {
+                        "x": 50,
+                        "y": 43
+                      },
+                      {
+                        "x": 14,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "win",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "You Organized Everything!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 75,
+      "color": {
+        "b": 33,
+        "g": 211,
+        "r": 126
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "lose",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "You Left Too Much Trash!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 75,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -741,6 +1034,12 @@
       },
       {
         "objectName": "trash"
+      },
+      {
+        "objectName": "win"
+      },
+      {
+        "objectName": "lose"
       }
     ]
   },
@@ -760,21 +1059,19 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "minutes",
-            "=",
-            "00"
-          ]
-        },
-        {
-          "type": {
             "value": "ResetTimer"
           },
           "parameters": [
             "",
             "\"GameTime\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "win"
           ]
         }
       ]
@@ -801,6 +1098,66 @@
       "conditions": [
         {
           "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "Timer",
+                "Text",
+                "=",
+                "\"30\""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DebuggerTools::Pause"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Collision with items on floor"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "CollisionNP"
           },
           "parameters": [
@@ -812,7 +1169,29 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "cigarette",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "cigarette",
+            "character.X(\"broom\")",
+            "character.Y(\"broom\")",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -830,7 +1209,29 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ash_pile",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "ash_pile",
+            "character.X(\"broom\")",
+            "character.Y(\"broom\")",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -848,7 +1249,202 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "burnt_cig",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "burnt_cig",
+            "character.X(\"broom\")",
+            "character.Y(\"broom\")",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "trash",
+            "cigarette",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "cigarette",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "trash",
+            "Animation",
+            "=",
+            "\"half full\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "trash",
+            "ash_pile",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ash_pile",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "trash",
+            "Animation",
+            "=",
+            "\"half full\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "trash",
+            "burnt_cig",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "burnt_cig",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "trash",
+            "Animation",
+            "=",
+            "\"half full\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Layer"
+              },
+              "parameters": [
+                "cigarette",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Layer"
+              },
+              "parameters": [
+                "burnt_cig",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Layer"
+              },
+              "parameters": [
+                "ash_pile",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "trash",
+            "Animation",
+            "=",
+            "\"full\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

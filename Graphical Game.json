@@ -238,10 +238,75 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
         "name": "NewSprite4",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/half full.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "half full",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/half full2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "half full2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/half full3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "half full3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/full.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/full.png\"}",
+        "name": "full",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/full2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "full2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/BerkshireSwash-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
