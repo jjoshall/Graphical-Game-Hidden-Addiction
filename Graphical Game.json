@@ -142,7 +142,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite2.png\"}",
         "name": "NewSprite2",
         "smoothed": true,
         "userAdded": true
@@ -229,7 +229,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
         "name": "NewSprite3",
         "smoothed": true,
         "userAdded": true
@@ -411,7 +411,7 @@
       {
         "file": "assets/Coins 6.aac",
         "kind": "audio",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Coins 6.aac\",\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Blip/select 6\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.04,\\\"sustainPunch\\\":0,\\\"decay\\\":0,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":2.723729511552045,\\\"frequency\\\":200,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":3,\\\"harmonicsFalloff\\\":0.84,\\\"waveform\\\":\\\"triangle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac\"}}",
         "name": "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
         "preloadAsMusic": false,
         "preloadAsSound": false,
@@ -431,6 +431,250 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite7.png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/half.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/half.png\"}",
+        "name": "half",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/full3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/full3.png\"}",
+        "name": "full3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/burn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "burn",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/burn2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "burn2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Explosion 6.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "20c1edc1dad3064721fc9a0621345e2b79198fae67e5a31cc9c3145b6654ba90_Explosion 6.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Explosions/20c1edc1dad3064721fc9a0621345e2b79198fae67e5a31cc9c3145b6654ba90_Explosion 6.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MetalV1_Jump_Land_02.wav",
+        "kind": "audio",
+        "metadata": "{\"localFilePath\":\"assets/MetalV1_Jump_Land_02.wav\",\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 7\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.63,\\\"sustainPunch\\\":60,\\\"decay\\\":0.27,\\\"tremoloDepth\\\":84,\\\"tremoloFrequency\\\":916,\\\"frequency\\\":200,\\\"frequencySweep\\\":-5800,\\\"frequencyDeltaSweep\\\":7500,\\\"repeatFrequency\\\":26.3,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":120,\\\"vibratoFrequency\\\":779,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":6,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":1,\\\"bitCrushSweep\\\":6,\\\"lowPassCutoff\\\":3100,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":6900,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"3a3686aa1d68cd13704841e8d0a1924207f7558a6c7afcf53a45eb9c540bf2c2_MetalV1_Jump_Land_02.wav\"}}",
+        "name": "3a3686aa1d68cd13704841e8d0a1924207f7558a6c7afcf53a45eb9c540bf2c2_MetalV1_Jump_Land_02.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/Metal/Jump/3a3686aa1d68cd13704841e8d0a1924207f7558a6c7afcf53a45eb9c540bf2c2_MetalV1_Jump_Land_02.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/character2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "character2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite10.png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite11.png\"}",
+        "name": "NewSprite11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite12.png\"}",
+        "name": "NewSprite12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/smoking.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/smoking.png\"}",
+        "name": "smoking",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/smoking2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/smoking2.png\"}",
+        "name": "smoking2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/smoking3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/smoking3.png\"}",
+        "name": "smoking3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/smoking4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/smoking4.png\"}",
+        "name": "smoking4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite15.png\"}",
+        "name": "NewSprite15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scare.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "scare",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite20",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -445,6 +689,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cutscene"
     }
   ],
   "externalEvents": [],

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2550455473354349,
+    "zoomFactor": 0.4057518905943841,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -64,36 +64,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "_6",
-      "persistentUuid": "ae7cb6a2-6e4d-4149-94db-6432d5c8052f",
-      "width": 0,
-      "x": 1071,
-      "y": 134,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Timer",
-      "persistentUuid": "2b3cb1df-0a20-43e4-93dc-544d040fa8d2",
-      "width": 0,
-      "x": 1128,
-      "y": 134,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 178,
       "customSize": true,
       "depth": 1,
@@ -118,8 +88,8 @@
       "name": "ash_pile",
       "persistentUuid": "b0f04ebc-e6f2-40f7-8c33-60d4c90f0d5b",
       "width": 177,
-      "x": 792,
-      "y": 243,
+      "x": 815,
+      "y": 488,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -134,8 +104,8 @@
       "name": "trash",
       "persistentUuid": "ba9c45e8-4392-4720-9440-d8669061bf53",
       "width": 147,
-      "x": 1125,
-      "y": 541,
+      "x": 277,
+      "y": 85,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -167,7 +137,7 @@
       "width": 0,
       "x": 219,
       "y": 222,
-      "zOrder": 15,
+      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -182,7 +152,7 @@
       "width": 0,
       "x": 250,
       "y": 222,
-      "zOrder": 16,
+      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -196,8 +166,8 @@
       "name": "cigarette",
       "persistentUuid": "a45d036c-1912-4d66-a402-bd2bea53681a",
       "width": 112,
-      "x": 130,
-      "y": 85,
+      "x": 127,
+      "y": 159,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -212,8 +182,8 @@
       "name": "ash_pile",
       "persistentUuid": "86a2b44b-2608-4c80-82d7-d4a11632b262",
       "width": 180,
-      "x": 62,
-      "y": 525,
+      "x": 341,
+      "y": 564,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -228,8 +198,8 @@
       "name": "burnt_cig",
       "persistentUuid": "456af7b4-5606-4b00-90fb-36e7eda75037",
       "width": 225,
-      "x": 50,
-      "y": 322,
+      "x": 351,
+      "y": 446,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -244,9 +214,120 @@
       "name": "floor",
       "persistentUuid": "e1858b85-217c-481e-bd1a-4a15af8a288c",
       "width": 2742,
-      "x": -733,
-      "y": -613,
+      "x": -764,
+      "y": -606,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 321,
+      "customSize": true,
+      "depth": 1,
+      "height": 159,
+      "layer": "",
+      "name": "cigarette",
+      "persistentUuid": "02c09377-e194-4218-b0d1-b182013901c8",
+      "width": 142,
+      "x": 969,
+      "y": 452,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 142,
+      "layer": "",
+      "name": "cig_pack",
+      "persistentUuid": "35f15a70-dfe4-4c55-a509-5fa16078d9f3",
+      "width": 147,
+      "x": 110,
+      "y": 573,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 199,
+      "layer": "",
+      "name": "fireplace",
+      "persistentUuid": "68dad1e5-2b0d-4748-a46a-193a0e319bab",
+      "width": 178,
+      "x": 1071,
+      "y": 250,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Timer",
+      "persistentUuid": "b45557c6-121c-480d-9351-c7aecf1ac2a3",
+      "width": 0,
+      "x": 1112,
+      "y": 134,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 35,
+      "customSize": true,
+      "depth": 1,
+      "height": 116,
+      "layer": "",
+      "name": "cigarette",
+      "persistentUuid": "aaa4ebf5-b44c-4f89-ac51-e4921df0cc7d",
+      "width": 130,
+      "x": 245,
+      "y": 384,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 162,
+      "layer": "",
+      "name": "ash_pile",
+      "persistentUuid": "4689bcf4-cf2c-487a-8939-c0353ef0bdf8",
+      "width": 171,
+      "x": 479,
+      "y": 310,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 203,
+      "layer": "",
+      "name": "burnt_cig",
+      "persistentUuid": "456a1c2c-a985-4ae5-a44d-baee08867a4a",
+      "width": 278,
+      "x": 718,
+      "y": 108,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -411,7 +492,20 @@
           "value": 0
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "80;227;194"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -587,7 +681,20 @@
           "value": 0
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "208;2;27"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -661,7 +768,20 @@
           "value": 0
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "126;211;33"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -722,7 +842,20 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "208;2;27"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1106,6 +1239,373 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "cig_pack",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "80;227;194"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "empty",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 31,
+                        "y": 30
+                      },
+                      {
+                        "x": 69,
+                        "y": 30
+                      },
+                      {
+                        "x": 69,
+                        "y": 80
+                      },
+                      {
+                        "x": 31,
+                        "y": 80
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "half",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "half",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 31,
+                        "y": 30
+                      },
+                      {
+                        "x": 69,
+                        "y": 30
+                      },
+                      {
+                        "x": 69,
+                        "y": 80
+                      },
+                      {
+                        "x": 31,
+                        "y": 80
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "full",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "full3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 31,
+                        "y": 30
+                      },
+                      {
+                        "x": 69,
+                        "y": 30
+                      },
+                      {
+                        "x": 69,
+                        "y": 80
+                      },
+                      {
+                        "x": 31,
+                        "y": 80
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fireplace",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "126;211;33"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.205,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 4
+                      },
+                      {
+                        "x": 61,
+                        "y": 4
+                      },
+                      {
+                        "x": 61,
+                        "y": 54
+                      },
+                      {
+                        "x": 3,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 4
+                      },
+                      {
+                        "x": 61,
+                        "y": 4
+                      },
+                      {
+                        "x": 61,
+                        "y": 54
+                      },
+                      {
+                        "x": 3,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burn",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.205,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "burn",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 4
+                      },
+                      {
+                        "x": 61,
+                        "y": 4
+                      },
+                      {
+                        "x": 61,
+                        "y": 54
+                      },
+                      {
+                        "x": 3,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "burn2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 4
+                      },
+                      {
+                        "x": 61,
+                        "y": 4
+                      },
+                      {
+                        "x": 61,
+                        "y": 54
+                      },
+                      {
+                        "x": 3,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1143,6 +1643,12 @@
       },
       {
         "objectName": "floor"
+      },
+      {
+        "objectName": "cig_pack"
+      },
+      {
+        "objectName": "fireplace"
       }
     ]
   },
@@ -1233,7 +1739,7 @@
                 "Timer",
                 "Text",
                 "=",
-                "\"30\""
+                "\"10\""
               ]
             }
           ]
@@ -1261,29 +1767,43 @@
               "subInstructions": [
                 {
                   "type": {
-                    "value": "Layer"
+                    "value": "BuiltinCommonInstructions::Not"
                   },
-                  "parameters": [
-                    "cigarette",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Layer"
-                  },
-                  "parameters": [
-                    "burnt_cig",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Layer"
-                  },
-                  "parameters": [
-                    "ash_pile",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "trash",
+                        "Animation",
+                        "=",
+                        "\"full\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "cig_pack",
+                        "Animation",
+                        "=",
+                        "\"full\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "fireplace",
+                        "Animation",
+                        "=",
+                        "\"burn\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1324,37 +1844,35 @@
               "subInstructions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Not"
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "Layer"
-                      },
-                      "parameters": [
-                        "cigarette",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Layer"
-                      },
-                      "parameters": [
-                        "burnt_cig",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Layer"
-                      },
-                      "parameters": [
-                        "ash_pile",
-                        ""
-                      ]
-                    }
+                  "parameters": [
+                    "trash",
+                    "Animation",
+                    "=",
+                    "\"full\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "cig_pack",
+                    "Animation",
+                    "=",
+                    "\"full\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "fireplace",
+                    "Animation",
+                    "=",
+                    "\"burn\""
                   ]
                 }
               ]
@@ -1618,7 +2136,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "trash",
+            "cig_pack",
             "cigarette",
             "",
             "",
@@ -1641,10 +2159,10 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "trash",
+            "cig_pack",
             "Animation",
             "=",
-            "\"half full\""
+            "\"half\""
           ]
         },
         {
@@ -1669,7 +2187,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "trash",
+            "fireplace",
             "ash_pile",
             "",
             "",
@@ -1689,22 +2207,11 @@
         },
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "trash",
-            "Animation",
-            "=",
-            "\"half full\""
-          ]
-        },
-        {
-          "type": {
             "value": "PlaySound"
           },
           "parameters": [
             "",
-            "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
+            "20c1edc1dad3064721fc9a0621345e2b79198fae67e5a31cc9c3145b6654ba90_Explosion 6.aac",
             "",
             "50",
             ""
@@ -1755,7 +2262,7 @@
           },
           "parameters": [
             "",
-            "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
+            "3a3686aa1d68cd13704841e8d0a1924207f7558a6c7afcf53a45eb9c540bf2c2_MetalV1_Jump_Land_02.wav",
             "",
             "50",
             ""
@@ -1768,43 +2275,52 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::And"
+            "value": "BuiltinCommonInstructions::Not"
           },
           "parameters": [],
           "subInstructions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Not"
+                "value": "Layer"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "Layer"
-                  },
-                  "parameters": [
-                    "cigarette",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Layer"
-                  },
-                  "parameters": [
-                    "burnt_cig",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Layer"
-                  },
-                  "parameters": [
-                    "ash_pile",
-                    ""
-                  ]
-                }
+              "parameters": [
+                "cigarette",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "cig_pack",
+            "Animation",
+            "=",
+            "\"full\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Not"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Layer"
+              },
+              "parameters": [
+                "burnt_cig",
+                ""
               ]
             }
           ]
@@ -1826,8 +2342,38 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Not"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Layer"
+              },
+              "parameters": [
+                "ash_pile",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "fireplace",
+            "Animation",
+            "=",
+            "\"burn\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
