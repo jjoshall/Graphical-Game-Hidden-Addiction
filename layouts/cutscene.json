@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.43357743047023767,
+    "zoomFactor": 0.5468750000000009,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -215,6 +215,21 @@
       "x": 446,
       "y": 511,
       "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "play",
+      "persistentUuid": "0a679157-2c17-4830-bec4-88b285592727",
+      "width": 0,
+      "x": 487,
+      "y": 615,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -653,6 +668,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -662,9 +679,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         }
       ],
@@ -681,6 +696,127 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35,
+                        "y": 23
+                      },
+                      {
+                        "x": 66,
+                        "y": 23
+                      },
+                      {
+                        "x": 66,
+                        "y": 77
+                      },
+                      {
+                        "x": 35,
+                        "y": 77
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walking",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35,
+                        "y": 23
+                      },
+                      {
+                        "x": 66,
+                        "y": 23
+                      },
+                      {
+                        "x": 66,
+                        "y": 77
+                      },
+                      {
+                        "x": 35,
+                        "y": 77
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walking2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35,
+                        "y": 23
+                      },
+                      {
+                        "x": 66,
+                        "y": 23
+                      },
+                      {
+                        "x": 66,
+                        "y": 77
+                      },
+                      {
+                        "x": 35,
+                        "y": 77
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walking3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -741,7 +877,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite14",
+                  "image": "NewSprite23",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -757,27 +893,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 17,
-                        "y": 13
+                        "x": 14,
+                        "y": 16
                       },
                       {
-                        "x": 47,
-                        "y": 13
+                        "x": 86,
+                        "y": 16
                       },
                       {
-                        "x": 47,
-                        "y": 47
+                        "x": 86,
+                        "y": 80
                       },
                       {
-                        "x": 17,
-                        "y": 47
+                        "x": 14,
+                        "y": 80
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite11",
+                  "image": "NewSprite24",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -793,20 +929,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 17,
-                        "y": 13
+                        "x": 14,
+                        "y": 16
                       },
                       {
-                        "x": 47,
-                        "y": 13
+                        "x": 86,
+                        "y": 16
                       },
                       {
-                        "x": 47,
-                        "y": 47
+                        "x": 86,
+                        "y": 80
                       },
                       {
-                        "x": 17,
-                        "y": 47
+                        "x": 14,
+                        "y": 80
                       }
                     ]
                   ]
@@ -1367,7 +1503,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite20",
+                  "image": "NewSprite21",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1383,20 +1519,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 6,
-                        "y": 18
+                        "x": 33,
+                        "y": 83
                       },
                       {
-                        "x": 58,
-                        "y": 18
+                        "x": 289,
+                        "y": 83
                       },
                       {
-                        "x": 58,
-                        "y": 45
+                        "x": 289,
+                        "y": 194
                       },
                       {
-                        "x": 6,
-                        "y": 45
+                        "x": 33,
+                        "y": 194
                       }
                     ]
                   ]
@@ -1406,6 +1542,27 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "play",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Click to Play",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1455,6 +1612,9 @@
       },
       {
         "objectName": "start_button"
+      },
+      {
+        "objectName": "play"
       }
     ]
   },
@@ -1529,6 +1689,24 @@
           "parameters": [
             "start_button"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "play"
+          ]
+        },
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+          },
+          "parameters": [
+            "wife",
+            "TopDownMovement",
+            "yes"
+          ]
         }
       ]
     },
@@ -1593,6 +1771,17 @@
             "wife",
             "TopDownMovement"
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "wife",
+            "Animation",
+            "=",
+            "\"walking\""
+          ]
         }
       ]
     },
@@ -1645,6 +1834,54 @@
             "Animation",
             "=",
             "\"smoking\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "hitbox_2",
+            "wife",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "hitbox_2",
+            "blah",
+            "=",
+            "\"stop\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "smoking5",
+            "no",
+            "40",
+            ""
           ]
         }
       ]
@@ -1835,6 +2072,15 @@
           },
           "parameters": [
             "start_button",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "play",
             ""
           ]
         }
