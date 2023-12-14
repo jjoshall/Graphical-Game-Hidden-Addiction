@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5117784035210173,
+    "zoomFactor": 0.3673257545058821,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,7 +32,7 @@
       "layer": "",
       "name": "wood",
       "persistentUuid": "e05841e7-9744-4e49-83a7-d3c7a7f46feb",
-      "width": 1700,
+      "width": 2047,
       "x": -140,
       "y": -107,
       "zOrder": 1,
